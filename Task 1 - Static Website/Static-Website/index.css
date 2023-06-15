@@ -1,0 +1,121 @@
+body{
+   background-color: aquamarine; 
+}
+#header{
+    background-color: black;
+    color: rgb(235, 106, 6);
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+}
+#title{
+    border: 3px solid;
+    border-color: chartreuse;
+    width: 150px;
+    margin: 10px;
+    padding: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 10px,10px,15px rgb(rgb(248, 253, 253));
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+}
+#menu{
+  float: left;  
+  /* margin-left: 950px; */
+}
+
+#menu li{
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+#menu li:hover{
+    float: left;
+    margin-left: 30px;
+    background-color: forestgreen;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#slide-area{
+    height: 500px;
+    background-color: rgb(174, 171, 171);
+
+}
+
+#slide-area #slide-show{
+    height: 100%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+}
+
+#slide-area #slide-show #img1{
+    height: 100%;
+    width: 100%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#lefticon{
+    position: absolute;
+    top: 45%;
+    left: 11%;
+}
+
+#righticon{
+    position: absolute;
+    top: 45%;
+    right: 11%;
+}
+
+.icon:hover{
+    transform: scale(1.5,1.5);
+}
+
+.icon1{
+    position: absolute;
+    top: 100px;
+    width: 25px;
+    height: 25px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left:96% 
+}
+
+#social-icons{
+    position:absolute;
+    left: 80%;
+    top:3%;
+}
+
+#social-icons img{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.sm-icon:hover{
+    transform:scale(1.5,1.5);
+}
+
+#footer{
+    text-align: center;
+    padding: 20px;
+}
+
+#hide-icon{
+    background-color: rgb(134, 130, 139);
+}

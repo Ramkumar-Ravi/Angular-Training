@@ -1,0 +1,47 @@
+#services-wrapper{
+    height: 450px;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.service-box{
+    height: 300px;
+    width: 250px;
+    background-color: whitesmoke;
+    float: left;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px white;
+}
+
+.service-box h3 {
+    color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid red;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.service-box img{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
+
+.service-box img:hover{
+    transform: scale(1.5,1.5);
+}
+
+.service-box .features{
+    margin: 20px;
+   
+}
+.service-box .features li {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(86, 83, 83);
+   list-style-type: circle;
+   cursor: pointer;
+}

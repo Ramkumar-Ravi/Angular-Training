@@ -1,0 +1,41 @@
+<html>
+    <head>
+       <script src="index.js"></script>
+       <link href="index.css" rel="stylesheet">
+       <link href="second.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">AR Corporation</div>
+            <div id="menu">
+<ul>
+    <li>Home</li>
+    <li>Login</li>
+    <li>Products</li>
+    <li>About Us</li>
+</ul>
+  </div>
+  <div id="social-icons">
+    <img src="images/fb.png" id="fbicon" class="sm-icon">
+    <img src="images/twitter.png" id="twittericon" class="sm-icon">
+    <img src="images/instaicon.png" id="instaicon" class="sm-icon">
+                </div>
+        </div>
+        <div id="slide-area">
+            <div id="slide-show">
+                <img src="first.jpg" id="img1"/>
+                <img src="redleft.png" id="lefticon" class="icon" onclick="changeImage('left')">
+                <img src="redright.png" id="righticon" class="icon" onclick="changeImage('right')">
+            </div>
+        </div>
+        <div id="hide-icon">
+            <img class="icon1" id="up" src="images/up.png" onClick="hideSlide()">
+            <img class="icon1" id="down" src="images/down.png" onClick="showSlide()" style="display:none">
+        </div>
+        <div id="services-wrapper"></div>
+        <div id="footer">
+            &copy;  Copyrights Reserved , AR Corporation 2023
+          </div>
+    </body>
+    <script src="data.js"></script>
+</html>
