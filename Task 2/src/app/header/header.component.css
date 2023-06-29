@@ -1,0 +1,50 @@
+#header{
+    /* margin-top: -10px; */
+    background-color:#f3e011 ;
+    height:50px;
+    border-radius: 2px;
+    overflow: hidden;  
+    display: flex;
+    justify-content: space-between;
+    /* border-style: ridge
+    dis; */
+    /* border-color: whitesmoke; */
+}
+#header ul{
+    list-style: none;
+    /* padding-top: 15px; */
+}
+#nav{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    gap: 1rem;
+    text-shadow: 2px 2px 2px #584703;
+    /* transform: padding 2s ease; */
+}
+#nav:hover{
+    cursor: pointer;
+
+   
+}
+#navigator{
+    flex-direction: row;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-inline-start: 3rem;
+}
+
+#social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline-end: 0.5rem;
+}
+#social-media img{
+    width: 20px;
+    height: 20px;
+    float:left;
+    
+}

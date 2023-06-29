@@ -1,0 +1,27 @@
+h3{
+    text-align: center;
+}
+#gallery{
+    border-radius: 50px;
+}
+#grid-one{
+    color:white;
+    float:left;
+    padding-left:20px;
+    border-radius: 50px;
+}
+#grid-one .color-pal
+{
+    width:300px;
+    height:200px;
+    display:inline-block;
+}
+.color-pal-name
+{
+    text-align: center;
+    width:200px;
+    height:200px;
+}
+#gallery-screen{
+    height: 240px;
+}

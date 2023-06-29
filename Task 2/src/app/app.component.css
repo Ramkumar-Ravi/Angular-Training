@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(209, 206, 206);
+}
+
+  #logo img{
+    width: 7rem;
+    height: 7rem;
+  }
+ 
+  #app{
+    height: auto;
+    overflow: hidden;
+  }

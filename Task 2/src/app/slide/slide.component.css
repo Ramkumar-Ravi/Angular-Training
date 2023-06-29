@@ -1,0 +1,11 @@
+#slide-area{
+    margin-top: 10px;
+    /* margin-left: -7px; */
+    width:100%;
+    height:300px;
+    background-color: rgb(212, 13, 13);
+}
+#slide-area img{
+    width:100%;
+    height:100%
+}
